@@ -1,0 +1,81 @@
+{
+  "aboutMe": {
+    "name": "María del Carmen Farfán Gavilán",
+    "description": "Programadora Junior con gran entusiasmo por el desarrollo tanto backend como frontend. Me caracterizo por mi compromiso, mis ganas de aprender y mi enfoque colaborativo, siempre buscando mejorar y alcanzar los objetivos junto al equipo.",
+    "linkedin": {
+      "name": "Mari Carmen Farfán",
+      "url": "https://www.linkedin.com/in/mari-carmen-farfan"
+    },
+    "email": "correo@gmail.com",
+    "title": "Desarrolladora Web y Animadora 2D/3D"
+  },
+  "navbar": {
+    "sections": [
+      "Sobre Mí",
+      "Experiencia",
+      "Proyectos",
+      "Educación",
+      "Contacto"
+    ]
+  },
+  "contact": {
+    "email": "correo@email.com",
+    "linkedin": {
+      "name": "Mari Carmen Farfán",
+      "url": "https://www.linkedin.com/in/mari-carmen-farfan"
+    },
+    "phone": "+34 555 555 555"
+  },
+  "experience": [
+    {
+      "date": "Marzo 2025 - Mayo 2025",
+      "company": "Ingenio Triana S.L",
+      "link": "https://ingeniotriana.com",
+      "role": "PROGRAMADORA",
+      "details": "En Ingenio Triana desarrollé proyectos de robótica con intercambio de datos mediante el protocolo MQTT, aplicando arquitecturas publisher/subscriber para comunicación en tiempo real. A su vez, desarrollé proyectos con Arduino orientados al aprendizaje interactivo, combinando programación y electrónica para fomentar la creatividad y la lógica en las aulas.",
+      "technologies": ["C++ ARDUINO", "NODE-RED", "RASPBERRY PI"]
+    },
+    {
+      "date": "Marzo 2024 - Mayo 2024",
+      "company": "Timber Films",
+      "link": "https://www.timberfilms.com",
+      "role": "LEAD ANIMACIÓN, CONCEPT ARTIST",
+      "details": "En Timber Films desempeñé el rol de Lead de Animación 3D, colaborando también en el desarrollo visual como Concept Artist. Participé en la creación de efectos visuales (VFX) en Unity mediante C# y en tareas de modelado y texturizado 3D, contribuyendo al aspecto técnico y artístico de diversos props del proyecto.",
+      "technologies": ["C#", "UNITY", "BLENDER", "PROCREATE", "ADOBE PHOTOSHOP", "ADOBE AFTER EFFECTS", "ADOBE PREMIERE"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Chapatriste",
+      "link": "https://store.steampowered.com/app/3034590/Chapatriste/?l=spanish",
+      "role": "LEAD ANIMACIÓN - CONCEPT ARTIST",
+      "details": "Chapatriste fue el proyecto que desarrollé junto al equipo de Timber Films, participando como Lead de Animación 3D, Concept Artist y en la creación de VFX en Unity con C#, además del modelado y texturizado 3D.",
+      "technologies": ["C#", "UNITY", "BLENDER", "ADOBE PHOTOSHOP", "ADOBE AFTER EFFECTS", "ADOBE PREMIERE"]
+    },
+    {
+      "name": "Re:Die",
+      "link": "https://larache.itch.io/re-die",
+      "role": "PROGRAMADORA - VFX",
+      "details": "Participé en el desarrollo del videojuego Re:Die durante una game jam, trabajando como programadora y artista de efectos visuales (VFX). El juego fue creado en un corto período de tiempo, enfocándonos en una jugabilidad dinámica y divertida.",
+      "technologies": ["C#", "UNITY", "PROCREATE"]
+    }
+  ],
+  "education": [
+    {
+      "date": "Septiembre 2024 - Presente",
+      "degree": "C.F.G.S Desarrollo de aplicaciones Web",
+      "institution": "IES Sotero Hernández",
+      "link": "https://iessoterohernandez.es",
+      "details": "Durante el Ciclo Formativo de Desarrollo de Aplicaciones Web, he adquirido una sólida formación en distintas tecnologías y lenguajes de programación, abarcando tanto el frontend como el backend. He trabajado con Java, JavaScript, React, HTML, CSS y SQL, entre otros.",
+      "technologies": ["JAVA", "JAVASCRIPT", "REACT", "SQL", "HTML5", "CSS3", "PL/SQL", "MONGODB"]
+    },
+    {
+      "date": "Septiembre 2022 - Junio 2024",
+      "degree": "C.F.G.S Animación 3D para juegos y Entornos Interactivos",
+      "institution": "Escuela de Negocios de la Cámara de Comercio de Sevilla",
+      "link": "https://www.eusa.es",
+      "details": "Durante el Ciclo Formativo de Animación 3D, Juegos y Entornos Interactivos, adquirí conocimientos en modelado, animación y diseño digital aplicados al desarrollo de videojuegos y experiencias interactivas.",
+      "technologies": ["C#", "UNITY", "BLENDER", "ADOBE PHOTOSHOP", "ADOBE AFTER EFFECTS", "ADOBE PREMIERE", "ADOBE ANIMATE"]
+    }
+  ]
+}

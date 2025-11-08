@@ -1,0 +1,50 @@
+.tar-educacion{
+    background-color: rgba(0, 0, 0, 0.08);
+    width: 95%;
+    height: 100%;
+    margin-top: 2%;
+    margin-left: 3%;
+
+    text-align: justify;
+    border-radius: 30px;
+    display: flex;
+}
+.tar-educacion .lat-izq{
+    justify-content: space-around;
+    width: 29%;
+    padding-top: 2%;
+    margin-left: 5%;
+}
+.tar-educacion .lat-der{
+    justify-content: space-around;
+    padding-right: 2%;
+    margin-left: 10%;
+}
+.tar-educacion .lat-der h1{
+    margin-bottom: 2%;
+}
+.tar-educacion .lat-der .centro{
+    color: rgb(65, 65, 65);
+}
+.tar-educacion .lat-der .centro a{
+    color: rgb(65, 65, 65);
+    margin-left: 0.5%;
+}
+
+.tar-educacion .lat-der .tags {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  margin-bottom: 2%;
+}
+.tar-educacion .lat-der .tags span {
+  background-color: rgb(15, 67, 102);
+  color: rgb(244, 248, 255);
+  font-size: 15px;
+  padding: 0.5% 1%;
+  border-radius: 20px;
+  /*white-space: nowrap;  si el texto se parte por la mitad*/
+}
+
+

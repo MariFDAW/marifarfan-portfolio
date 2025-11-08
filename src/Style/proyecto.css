@@ -1,0 +1,48 @@
+.tar-proyecto {
+    background-color: rgba(0, 0, 0, 0.08);
+    width: 90%; /* Tamaño fijo para mantener verticalidad */
+    height: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.tar-proyecto img {
+    width: 100%;
+    height: 260px;
+    margin: auto;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.tar-proyecto h1 {
+    width: 100%;
+    margin-bottom: 2%;
+    font-size: 35px;
+}
+
+.tar-proyecto .cargo {
+    color: rgb(65, 65, 65);
+    margin-bottom: 2%;
+}
+
+.tar-proyecto .tags {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    margin-bottom: 2%;
+}
+
+.tar-proyecto .tags span {
+    background-color: rgb(15, 67, 102);
+    color: rgb(244, 248, 255);
+    font-size: 15px;
+    padding: 0.5% 1%;
+    border-radius: 20px;
+    /*white-space: nowrap;  si el texto se parte por la mitad*/
+}

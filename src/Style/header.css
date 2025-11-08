@@ -1,0 +1,11 @@
+.header{
+    width: 95%;
+    margin: auto;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.08);
+
+    font-family: 'Jost', sans-serif;
+    font-style: bold;
+    text-align: center;
+    font-size: 30px;
+}

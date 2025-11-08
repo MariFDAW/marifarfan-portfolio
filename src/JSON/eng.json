@@ -1,0 +1,81 @@
+{
+  "aboutMe": {
+    "name": "María del Carmen Farfán Gavilán",
+    "description": "Junior Programmer with great enthusiasm for both backend and frontend development. I am characterized by my commitment, eagerness to learn, and collaborative approach, always striving to improve and achieve goals together with the team.",
+    "linkedin": {
+      "name": "Mari Carmen Farfán",
+      "url": "https://www.linkedin.com/in/mari-carmen-farfan"
+    },
+    "email": "correo@gmail.com",
+    "title": "Web Developer and 2D/3D Animator"
+  },
+  "navbar": {
+    "sections": [
+      "About Me",
+      "Experience",
+      "Projects",
+      "Education",
+      "Contact"
+    ]
+  },
+  "contact": {
+    "email": "correo@email.com",
+    "linkedin": {
+      "name": "Mari Carmen Farfán",
+      "url": "https://www.linkedin.com/in/mari-carmen-farfan"
+    },
+    "phone": "+34 555 555 555"
+  },
+  "experience": [
+    {
+      "date": "March 2025 - May 2025",
+      "company": "Ingenio Triana S.L",
+      "link": "https://ingeniotriana.com",
+      "role": "PROGRAMMER",
+      "details": "At Ingenio Triana, I developed robotics projects with data exchange using the MQTT protocol, applying publisher/subscriber architectures for real-time communication. I also created Arduino-based interactive learning projects combining programming and electronics to foster creativity and logic in classrooms.",
+      "technologies": ["C++ ARDUINO", "NODE-RED", "RASPBERRY PI"]
+    },
+    {
+      "date": "March 2024 - May 2024",
+      "company": "Timber Films",
+      "link": "https://www.timberfilms.com",
+      "role": "LEAD ANIMATION, CONCEPT ARTIST",
+      "details": "At Timber Films, I served as the Lead 3D Animator and also contributed as a Concept Artist. I participated in creating VFX in Unity using C#, as well as modeling and texturing 3D assets, contributing to the project's technical and artistic quality.",
+      "technologies": ["C#", "UNITY", "BLENDER", "PROCREATE", "ADOBE PHOTOSHOP", "ADOBE AFTER EFFECTS", "ADOBE PREMIERE"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Chapatriste",
+      "link": "https://store.steampowered.com/app/3034590/Chapatriste/?l=spanish",
+      "role": "LEAD ANIMATION - CONCEPT ARTIST",
+      "details": "Chapatriste was a project I developed with the Timber Films team, serving as Lead 3D Animator, Concept Artist, and VFX creator in Unity with C#, as well as performing 3D modeling and texturing.",
+      "technologies": ["C#", "UNITY", "BLENDER", "ADOBE PHOTOSHOP", "ADOBE AFTER EFFECTS", "ADOBE PREMIERE"]
+    },
+    {
+      "name": "Re:Die",
+      "link": "https://larache.itch.io/re-die",
+      "role": "PROGRAMMER - VFX",
+      "details": "I participated in the development of the video game Re:Die during a game jam, working as a programmer and VFX artist. The game was created in a short period, focusing on dynamic and fun gameplay.",
+      "technologies": ["C#", "UNITY", "PROCREATE"]
+    }
+  ],
+  "education": [
+    {
+      "date": "September 2024 - Present",
+      "degree": "Higher Technical Certificate in Web Application Development",
+      "institution": "IES Sotero Hernández",
+      "link": "https://iessoterohernandez.es",
+      "details": "During the Web Application Development course, I gained strong training in various technologies and programming languages, covering both frontend and backend. I worked with Java, JavaScript, React, HTML, CSS, and SQL, among others.",
+      "technologies": ["JAVA", "JAVASCRIPT", "REACT", "SQL", "HTML5", "CSS3", "PL/SQL", "MONGODB"]
+    },
+    {
+      "date": "September 2022 - June 2024",
+      "degree": "Higher Technical Certificate in 3D Animation for Games and Interactive Environments",
+      "institution": "Business School of the Chamber of Commerce of Seville",
+      "link": "https://www.eusa.es",
+      "details": "During the 3D Animation, Games, and Interactive Environments program, I acquired knowledge in modeling, animation, and digital design applied to the development of video games and interactive experiences.",
+      "technologies": ["C#", "UNITY", "BLENDER", "ADOBE PHOTOSHOP", "ADOBE AFTER EFFECTS", "ADOBE PREMIERE", "ADOBE ANIMATE"]
+    }
+  ]
+}
