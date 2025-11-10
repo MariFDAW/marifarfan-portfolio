@@ -51,9 +51,11 @@
 @media (max-width: 576px) {
     .tar-empresa .lat-der .tags span {
         margin-bottom: 2%;
+        font-size: 10px;
     }
     .tar-empresa .lat-der{
         margin-right: 2%;
+        font-size: 12px;
     }
     .tar-empresa{
         margin-bottom: 3%;

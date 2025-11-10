@@ -46,3 +46,12 @@
     border-radius: 20px;
     /*white-space: nowrap;  si el texto se parte por la mitad*/
 }
+
+@media(max-width:480px){
+    .tar-proyecto{
+        font-size: 12px;
+    }
+    .tar-proyecto .tags span{
+        font-size: 10px;
+    }
+}

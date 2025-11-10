@@ -65,6 +65,35 @@
     padding: 0;
     margin: 0px;
     font-size: 10px;
+    margin-top: 0.8%;
+  }
 }
+@media (max-width: 480px) {
+
+ .navbar {
+    border-radius: 25px;
+    padding: 0;
+  }
+
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center; /* 👈 centra los elementos */
+  }
+
+  .navbar li a {
+    padding: 2px 8px; /* 👈 añade aire alrededor del texto */
+    margin: 0;
+    font-size: 10px;
+  }
+
+  .idioma {
+    padding: 3px 6px;
+    margin: 0;
+    font-size: 9px;
+    margin-top: 1%;
+  }
 }
 
