@@ -45,7 +45,7 @@
   transition: background-color 0.3s ease;
   transition: transform 0.3s ease;
 }
-@media (max-width: 576px) {
+@media (max-width: 480px) {
  .navbar {
     border-radius: 25px;
     padding: 5px;
