@@ -48,7 +48,7 @@
     /*white-space: nowrap;  si el texto se parte por la mitad*/
 }
 
-@media (max-width: 480px) {
+@media (max-width: 576px) {
     .tar-empresa .lat-der .tags span {
         margin-bottom: 2%;
     }
