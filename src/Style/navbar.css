@@ -45,4 +45,24 @@
   transition: background-color 0.3s ease;
   transition: transform 0.3s ease;
 }
+@media (max-width: 576px) {
+ .navbar {
+    border-radius: 25px;
+    padding: 5px;
+  }
+
+  .navbar ul {
+    gap: 10px;
+    justify-content: flex-start; /* 🔹 alinea los ítems al inicio para scroll horizontal */
+  }
+  .navbar li a{
+    padding: 2px 6px;
+    font-size: 13px;
+  }
+  .idioma {
+    padding: 2px 3px;
+    margin-left: 2px;
+    font-size: 12px;
+}
+}
 

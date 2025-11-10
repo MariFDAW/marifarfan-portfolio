@@ -1,4 +1,4 @@
-.tar-empresa{
+.tar-empresa {
     background-color: rgba(0, 0, 0, 0.08);
     width: 95%;
     height: 100%;
@@ -9,38 +9,53 @@
     border-radius: 30px;
     display: flex;
 }
-.tar-empresa .lat-izq{
+
+.tar-empresa .lat-izq {
     justify-content: space-around;
     width: 29%;
     padding-top: 2%;
     margin-left: 5%;
 }
-.tar-empresa .lat-der{
+
+.tar-empresa .lat-der {
     justify-content: space-around;
     padding-right: 2%;
     margin-left: 10%;
 }
-.tar-empresa .lat-der h1{
+
+.tar-empresa .lat-der h1 {
     margin-bottom: 2%;
 }
-.tar-empresa .lat-der .cargo{
+
+.tar-empresa .lat-der .cargo {
     color: rgb(65, 65, 65);
 }
 
 .tar-empresa .lat-der .tags {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  border-radius: 20px;
-  margin-bottom: 2%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    margin-bottom: 2%;
 }
+
 .tar-empresa .lat-der .tags span {
-  background-color: rgb(15, 67, 102);
-  color: rgb(244, 248, 255);
-  font-size: 15px;
-  padding: 0.5% 1%;
-  border-radius: 20px;
-  /*white-space: nowrap;  si el texto se parte por la mitad*/
+    background-color: rgb(15, 67, 102);
+    color: rgb(244, 248, 255);
+    font-size: 15px;
+    padding: 0.5% 1%;
+    border-radius: 20px;
+    /*white-space: nowrap;  si el texto se parte por la mitad*/
 }
 
-
+@media (max-width: 576px) {
+    .tar-empresa .lat-der .tags span {
+        margin-bottom: 2%;
+    }
+    .tar-empresa .lat-der{
+        margin-right: 2%;
+    }
+    .tar-empresa{
+        margin-bottom: 3%;
+    }
+}

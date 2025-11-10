@@ -46,5 +46,17 @@
   border-radius: 20px;
   /*white-space: nowrap;  si el texto se parte por la mitad*/
 }
+@media (max-width: 576px){
+    .tar-educacion{
+        margin-bottom: 3%;
+    }
+    .tar-educacion .lat-der{
+        margin-right: 2%;
+    }
+    .tar-educacion .lat-der .tags span{
+        margin-right: 2%;
+        margin-bottom: 2%;
+    }
+}
 
 

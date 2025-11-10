@@ -1,11 +1,11 @@
-
-.sobre-mi{
+.sobre-mi {
     width: 95%;
     margin: auto;
     display: flex;
     margin-top: 1%;
 }
-.tarjeta{
+
+.tarjeta {
     background-color: rgba(0, 0, 0, 0.08);
     width: 70%;
     margin-top: 2%;
@@ -14,34 +14,40 @@
     text-align: justify;
     border-radius: 10px;
 }
-.tarjeta h1, .tarjeta p{
+
+.tarjeta h1,
+.tarjeta p {
     padding: 0% 5%;
-    
+
 }
-.tarjeta h1{
+
+.tarjeta h1 {
     font-style: bold;
     font-size: 60px;
     font-family: 'Jost', sans-serif;
-    
+
     padding: 0%;
     padding-right: 4%;
     padding-left: 4.8%;
     margin-bottom: 1%;
 }
-.tarjeta p{
+
+.tarjeta p {
     padding-top: 0%;
 }
-img{
-  width: 30%;
-  height: 400px;
-  object-fit: cover;
-  margin-top: 2%;
-  margin-left: 3%;
-  overflow: hidden;
 
-  border-radius: 10px;
+img {
+    width: 30%;
+    height: 400px;
+    object-fit: cover;
+    margin-top: 2%;
+    margin-left: 3%;
+    overflow: hidden;
+
+    border-radius: 10px;
 }
-.titulacion{
+
+.titulacion {
     width: 95%;
     margin: auto;
     margin-top: 3%;
@@ -50,7 +56,46 @@ img{
     border-radius: 50px;
     border-style: solid;
 }
-.tarjeta a, .tarjeta span{
+
+.tarjeta a,
+.tarjeta span {
     margin-left: 5%;
     margin-bottom: 2%;
+}
+
+@media (max-width: 576px) {
+    .sobre-mi {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sobre-mi img {
+        width: 80%;
+        height: auto;
+        margin: 2%;
+    }
+
+    .tarjeta {
+        width: 98%;
+        margin-left: 0;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .tarjeta h1 {
+        font-size: 36px;
+    }
+
+    .tarjeta a,
+    .tarjeta span {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 16px;
+    }
+    .tarjeta a i,
+    .tarjeta span i {
+        font-size: 18px;
+    }
 }

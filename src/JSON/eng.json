@@ -19,6 +19,7 @@
     ]
   },
   "contact": {
+    "phoneNumber":"Phone",
     "email": "correo@email.com",
     "linkedin": {
       "name": "Mari Carmen Farfán",

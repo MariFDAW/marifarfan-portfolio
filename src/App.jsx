@@ -36,7 +36,7 @@ function App() {
       <Header titulo={leng.navbar.sections[3]} id='educacion' />
       <Educacion leng={leng}/>
       <Header titulo={leng.navbar.sections[4]} id='contacto' leng={leng}/>
-      <Contacto/>
+      <Contacto leng={leng}/>
     </>
   )
 }
